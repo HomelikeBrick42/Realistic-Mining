@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "realisticmining:block/fabric_block" }
+    }
+}
