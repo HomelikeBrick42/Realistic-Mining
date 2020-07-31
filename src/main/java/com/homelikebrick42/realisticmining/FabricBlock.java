@@ -26,7 +26,7 @@ public class FabricBlock extends Block {
     public static void Register() {
         FabricBlock block = new FabricBlock();
         Registry.register(Registry.BLOCK, new Identifier(RealisticMining.MOD_ID, "fabric_block"), block);
-        Registry.register(Registry.ITEM, new Identifier(RealisticMining.MOD_ID, "fabric_block"), new BlockItem(block, new Item.Settings().group(ItemGroup.MISC)));
+        Registry.register(Registry.ITEM, new Identifier(RealisticMining.MOD_ID, "fabric_block"), new BlockItem(block, new Item.Settings().group(ItemGroup.MISC).maxCount(512)));
     }
     
 }
